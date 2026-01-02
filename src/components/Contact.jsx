@@ -76,7 +76,7 @@ const Contact = () => {
     }
   ];
 
-  // Add Material Icons dynamically
+  //  Material Icons 
   useEffect(() => {
     const link = document.createElement('link');
     link.href = 'https://fonts.googleapis.com/icon?family=Material+Icons';

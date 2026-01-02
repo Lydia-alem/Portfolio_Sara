@@ -8,7 +8,7 @@ const Hero = () => {
   
   const titles = ['STIC Student', 'Full-Stack Developer'];
 
-  // Check screen size on mount and resize
+  //  screen size 
   useEffect(() => {
     const checkScreenSize = () => {
       const width = window.innerWidth;
@@ -41,7 +41,7 @@ const Hero = () => {
     }
   };
 
-  // Load Font Awesome icons
+  // Font and icons
   useEffect(() => {
     const link = document.createElement('link');
     link.rel = 'stylesheet';
@@ -288,7 +288,7 @@ const Hero = () => {
                   }
                 }}
               />
-              {/* Decorative glow effect */}
+              
               <div style={{
                 position: 'absolute',
                 top: '0',
